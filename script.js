@@ -18,7 +18,7 @@ function displayProdaucts(products) {
     let box = "";
     for (let i = 0; i < products.length; i++) {
         box += `
-    <div class="col-3">
+    <div class="col-sm-12 col-md-5" col-lg-3">
         <div class="card">
             <img src="${products[i].image}" class="card-img-top" alt="${products[i].title}">
             <div class="card-body">

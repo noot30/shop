@@ -23,7 +23,7 @@ function displayProduct(product) {
 
 
 productDetails.innerHTML = `
-    <div id="product" class="product col-sm-12 col-md-5 col-lg-3">
+    <div id="product" class="product col-sm-12 col-md-5 col-lg-4">
 
         <div id="image" class="image">
             <img src="${product.image}" alt="${product.title}">

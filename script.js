@@ -19,7 +19,7 @@ function displayProdaucts(products) {
     for (let i = 0; i < products.length; i++) {
         box += `
     <div class="row justify-content-md-center">
-        <div class="card col-sm-12 col-md-5 col-lg-3">
+        <div class="card col-sm-12 col-md-5 col-lg-4">
             <img src="${products[i].image}" class="card-img-top" alt="${products[i].title}">
             <div class="card-body">
                 <h5 class="card-title">${products[i].title}</h5>

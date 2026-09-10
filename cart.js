@@ -8,7 +8,7 @@ if (cart.length === 0) {
 } else {
     for (let i = 0; i < cart.length; i++) {
         box += `
-            <div class="col-sm-12 col-md-5 col-lg-3">
+            <div class="col-sm-12 col-md-5 col-lg-4">
                 <div class="cart-card">
                     <img 
                         src="${cart[i].image}" 
